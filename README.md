@@ -114,24 +114,23 @@ Follow these steps to install the add-on in a single server instance of Splunk E
 
 ###  Distributed installation of this add-on
 This table provides a quick reference for installing this add-on to a distributed deployment of Splunk Enterprise.
-
+|                        |                                   |                                              |
+| ---------------------- | --------------------------------- | -------------------------------------------- |
 |Splunk instance type    |Supported        |Required         |Comments
--------------------------------------------------------------------
 |Search Heads            |Yes              |Yes              |Install this add-on to all search heads where Infoblox knowledge management is required.
 |Indexers                |Yes              |Conditional      |Not required if you use heavy forwarders. Required if you use universal forwarders to monitor json or tcp bricata output.
 |Heavy Forwarders        |Yes              |See comments     |This add-on supports forwarders of any type for data collection.
 |Universal Forwarders    |Yes              |Conditional      | Only the inputs are required.
---------------------------------------------------------------------
 
 ###   Distributed deployment compatibility
 This table provides a quick reference for the compatibility of this add-on with Splunk distributed deployment features.
-__________________________________________________________
+
+|                                   |               |                                                       |
+| --------------------------------- | ------------- | ----------------------------------------------------- |
 |Distributed deployment feature     |Supported      |Comments
-----------------------------------------------------------
 |Search Head Clusters               |Yes            |You can install this add-on on a search head cluster for all search-time functionality. 
 |Indexer Clusters                   |Yes            |Before installing this add-on to a cluster, remove the eventgen.conf files and all files in the Samples folder.
 |Deployment Server                  |Yes            |Supported for deploying the configured add-on.
-----------------------------------------------------------
 
 # User Guide
 
