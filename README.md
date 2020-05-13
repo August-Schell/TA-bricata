@@ -36,7 +36,7 @@ Version 3.0.0 of bricata add-on for Splunk is compatible with:
 
 ## Overview
 
-This TA is designed to allow for marking and grouping of data being searched through using workflow actions.  There are three categories; pertinent, needs_review and non_pertinent.  These markings are stored in a kvstore.
+The bricata add-on for Splunk provides inputs for the collection of data from the Bricata CMC or sensors through collection of JSON data sent to a syslog server or "syslog' data streamed from a sensor to tcp listeners.The add-on provides CIM compatible field extractions to normalize the data.
 
 ## Available Dashboards
 
